@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom'; 
-import { RealCaseRef } from './components/04-useRef/RealCaseRef';
+import { MemoHook } from './components/06-useMemo/MemoHook';
+//import { Memorize } from './components/06-useMemo/Memorize';
+//import { LayoutPractica } from './components/05-useLayoutEffect/LayoutPractica';
+//import { RealCaseRef } from './components/04-useRef/RealCaseRef';
 //import { FocusScreen } from './components/04-useRef/FocusScreen';
 //import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
 //import { CounterCustomApp } from './components/custom/CounterCustomApp';
@@ -12,6 +15,6 @@ import { RealCaseRef } from './components/04-useRef/RealCaseRef';
 import './index.css';
 
 ReactDOM.render(
-  <RealCaseRef />,
+  <MemoHook />,
   document.getElementById('root')
 );
