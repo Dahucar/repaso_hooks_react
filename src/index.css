@@ -17,6 +17,12 @@ p {
     justify-content: space-between;
 }
 
+.prueba {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
 .complete {
     text-decoration: line-through;
 }
