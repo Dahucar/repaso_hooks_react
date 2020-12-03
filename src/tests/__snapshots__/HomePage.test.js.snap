@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en el <HomePage /> Debe hacer match con la instantanea, 1`] = `<HomePage />`;

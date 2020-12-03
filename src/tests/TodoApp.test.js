@@ -11,6 +11,7 @@ describe('Pruebas en <TodoApp />', () => {
     });
     test('Debe agregar un todo', () => {
         // para probar el componente, este trae info de los hijos y de su contexto de uso 
+        // tiene problemas con versiones de React
         const wrapper = mount( <TodoApp /> ); 
         act(() => {
             wrapper.find('FormAddTodo').prop('handleAddTodo')( demoTodos[0] );
