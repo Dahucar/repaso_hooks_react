@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <TodoApp /> Debe hacer match con la instantanea. 1`] = `
+<div
+  className="containe-fluid card"
+>
+  <div
+    className="card-header"
+  >
+    <h2>
+      TodoApp
+    </h2>
+  </div>
+  <div
+    className="card-body"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-8"
+        >
+          <TodoList
+            handleDelete={[Function]}
+            hanldeToggleTodo={[Function]}
+            todos={Array []}
+          />
+        </div>
+        <div
+          className="col-4"
+        >
+          <FormAddTodo
+            handleAddTodo={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

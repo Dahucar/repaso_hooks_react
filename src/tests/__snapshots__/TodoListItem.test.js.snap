@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <TodoListItem /> Debe hacer match con la instantanea 1`] = `
+<li
+  className="list-group-item"
+>
+  <p
+    className="false"
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2 badge badge-pill badge-danger"
+    >
+      2
+    </span>
+    Aprender React
+  </p>
+  <button
+    className="btn btn-danger btn-sm"
+    onClick={[Function]}
+  >
+    Quitar
+  </button>
+</li>
+`;

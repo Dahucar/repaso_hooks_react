@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <MultipleCustomHooks /> Debe hacer match con la instantanea. 1`] = `
+<div
+  className="container card"
+>
+  <div
+    className="card-header"
+  >
+    <h2>
+      Custom Hooks with BreakingBad quotes
+    </h2>
+  </div>
+  <div
+    className="card-body"
+  >
+    <div
+      className="spinner-grow text-success"
+      role="status"
+    >
+      <span
+        className="sr-only"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</div>
+`;

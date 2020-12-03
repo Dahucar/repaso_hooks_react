@@ -30,6 +30,13 @@ export const useCustomEffect = ( url ) => {
             }else{
                 console.log('Componente inactivo -> error prevenido');
             }
+        })
+        .catch( () => {
+            setState({
+                data: null,
+                loading: false,
+                error: 'Error en la petición.',
+            });
         });
     }, [ url ]);
 

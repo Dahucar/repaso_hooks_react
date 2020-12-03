@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in 05-hooks components  Should be macht with the Snapshot 1`] = `
+<div
+  className="container card"
+>
+  <div
+    className="card-header"
+  >
+    <h2>
+      LayoutPractica
+    </h2>
+  </div>
+  <div
+    className="card-body"
+  >
+    <div>
+      <blockquote
+        className="blockquote text-right"
+      >
+        <p
+          className="mb-0"
+        >
+           quote - 
+          1
+           
+        </p>
+        <p
+          className="mb-0"
+        >
+           
+           
+        </p>
+      </blockquote>
+      <pre>
+        {}
+      </pre>
+      <button
+        className="btn btn-success"
+        onClick={[Function]}
+      >
+        Siguiente
+      </button>
+      <button
+        className="btn btn-danger"
+        onClick={[Function]}
+      >
+        Volver
+      </button>
+    </div>
+  </div>
+</div>
+`;

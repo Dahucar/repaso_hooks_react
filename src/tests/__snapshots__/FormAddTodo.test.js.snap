@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <FormAddTodo/> Debe de hacer match con la instantanea 1`] = `
+<Fragment>
+  <h3
+    className="text-center"
+  >
+    Agregar todo
+  </h3>
+  <hr />
+  <form
+    className="mr-4"
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="form-control"
+      name="desc"
+      onChange={[Function]}
+      placeholder="Ingrese tarea"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-outline-success mt-1 btn-block"
+      type="submit"
+    >
+      Agregar
+    </button>
+  </form>
+</Fragment>
+`;

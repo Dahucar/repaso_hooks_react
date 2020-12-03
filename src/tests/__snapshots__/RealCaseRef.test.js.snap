@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <RealCaseRef /> Debe de hacer match con su instantanea. 1`] = `
+<div
+  className="container card"
+>
+  <div
+    className="card-header"
+  >
+    <h2>
+      RealCaseRef
+    </h2>
+  </div>
+  <div
+    className="card-body"
+  />
+  <div
+    className="card-footer"
+  >
+    <button
+      className="btn btn-success btn-lg btn-block"
+      onClick={[Function]}
+      type="button"
+    >
+      Mostrar
+    </button>
+  </div>
+</div>
+`;

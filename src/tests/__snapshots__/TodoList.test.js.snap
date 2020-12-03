@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <TodoList /> Debe hacer match con la instantanea. 1`] = `
+<div
+  className="card"
+>
+  <ul
+    className="list-group list-group-flush"
+  >
+    <TodoListItem
+      handleDelete={[MockFunction]}
+      hanldeToggleTodo={[MockFunction]}
+      index={0}
+      key="1"
+      todo={
+        Object {
+          "desc": "Aprender React",
+          "done": false,
+          "id": 1,
+        }
+      }
+    />
+    <TodoListItem
+      handleDelete={[MockFunction]}
+      hanldeToggleTodo={[MockFunction]}
+      index={1}
+      key="2"
+      todo={
+        Object {
+          "desc": "Aprender Node",
+          "done": false,
+          "id": 2,
+        }
+      }
+    />
+  </ul>
+</div>
+`;

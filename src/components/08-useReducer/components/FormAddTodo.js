@@ -25,7 +25,7 @@ export const FormAddTodo = ({ handleAddTodo }) => {
         <>
             <h3 className="text-center">Agregar todo</h3>
             <hr />
-            <form className="mr-4">
+            <form className="mr-4" onSubmit={ handleSubmit }>
                 <input 
                     type="text"
                     name="desc" 
@@ -38,7 +38,6 @@ export const FormAddTodo = ({ handleAddTodo }) => {
                 <button
                     type="submit"
                     className="btn btn-outline-success mt-1 btn-block"
-                    onClick={ handleSubmit }
                 >
                     Agregar
                 </button>
